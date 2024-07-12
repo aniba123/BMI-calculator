@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    text-align: center;
+    cursor: pointer;
+    
+}
+.content-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    text-align: center;
+    width: 100%;
+    /* background-color: aquamarine; */
+}
+.box{
+    height: 15vh;
+    width: 10%;
+    margin: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+}
+#pink{
+    background-color: palevioletred;
+}
+#purple{
+    background-color: purple;
+}#grey{
+    background-color: grey;
+}#green{
+    background-color: green;
+}#skyblue{
+    background-color: rgb(41, 101, 125);
+}
