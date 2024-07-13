@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    
+}
+.main-container .main-heading h1{
+    color: palevioletred;
+    padding: 3%;
+}
+.main-container form input{
+    width: 15%;
+    height: 5vh;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-left: 1%;
+    padding: 1%;
+}
+.main-container form p{
+    color: goldenrod;
+    padding-bottom: 2%;
+}
+.button{
+    width: 10%;
+    height: 5vh;
+}
+.result{
+    width: 15%;
+    height: 5vh;
+    margin-left: 45%;
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-color: aquamarine;
+
+}
